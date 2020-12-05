@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "quiz-app2"
+    }
+  },
+  "defaultProject": "quiz-app2",
+  "cli": {
+    "analytics": false
+  }
 }
