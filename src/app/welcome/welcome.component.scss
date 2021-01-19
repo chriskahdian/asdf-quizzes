@@ -1,0 +1,47 @@
+h1 {
+font-size: 32px;
+// font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+a {
+text-align: center;
+}
+
+* {
+margin: auto;
+text-align: center;
+padding: 15px;
+// background-color: #eee;
+}
+
+mat-card {
+width: 15rem;
+background-color: #e00;
+color: #eee;
+}
+
+mat-card:hover {
+transform: scale(1.15);
+}
+
+mat-card-title {
+font-size: 32px;
+// font-family: "Comic Sans MS", cursive, sans-serif;
+background-color: #e00;
+}
+
+mat-card-content {
+background-color: #e00;
+}
+
+button {
+background-color: #000;
+}
+
+.welcome {
+display: grid;
+}
+
+mat-card-actions {
+background-color: #e00;
+}

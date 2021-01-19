@@ -1,0 +1,18 @@
+<div class="results">
+  <mat-card>
+    <mat-card-title>
+      <h1><u>Results</u></h1>
+    </mat-card-title>
+    <br/>
+    <div
+      *ngFor="let a of answers.values"
+      class="answer"
+      [ngClass]="{ correct: a.correct }"
+    >
+      {{a.value}}
+      <br/>
+      <br/>
+    </div>
+    <button routerLink="/">Home</button>
+  </mat-card>
+</div>
