@@ -1,47 +1,27 @@
-h1 {
-font-size: 32px;
-// font-family: "Comic Sans MS", cursive, sans-serif;
+.welcome{
+  height: 100vh;
+  background-image: linear-gradient(white, rgba(216, 229, 255, 0.522), white);
 }
 
-a {
-text-align: center;
+h1 {
+    font-size: 32px;
 }
 
 * {
-margin: auto;
-text-align: center;
-padding: 15px;
-// background-color: #eee;
+    margin: auto;
+    text-align: center;
+    padding: 15px;
 }
 
 mat-card {
-width: 15rem;
-background-color: #e00;
-color: #eee;
+    width: 15rem;
+    background-image: linear-gradient(white, rgb(255, 252, 237));
 }
 
 mat-card:hover {
-transform: scale(1.15);
+    transform: scale(1.05);
 }
 
 mat-card-title {
-font-size: 32px;
-// font-family: "Comic Sans MS", cursive, sans-serif;
-background-color: #e00;
-}
-
-mat-card-content {
-background-color: #e00;
-}
-
-button {
-background-color: #000;
-}
-
-.welcome {
-display: grid;
-}
-
-mat-card-actions {
-background-color: #e00;
+    font-size: 32px;
 }

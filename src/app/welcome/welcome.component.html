@@ -1,10 +1,12 @@
-<div>
-  <h1>Quiz App</h1>
-  Please choose a quiz to take
-</div>
-<div class="welcome" *ngFor="let q of quiz">
-  <mat-card mat-button [routerLink]="['/', q.name]">
-    <mat-card-title>{{ q.label }}</mat-card-title>
-    <mat-card-content>{{ q.description }}</mat-card-content>
-  </mat-card>
+<div class="welcome">
+  <div>
+    <h1>Quiz App</h1>
+    Please choose a quiz to take
+  </div>
+  <div *ngFor="let q of quiz">
+    <mat-card mat-button [routerLink]="['/', q.name]">
+      <mat-card-title>{{ q.label }}</mat-card-title>
+      <mat-card-content>{{ q.description }}</mat-card-content>
+    </mat-card>
+  </div>
 </div>

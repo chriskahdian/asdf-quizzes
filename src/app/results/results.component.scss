@@ -1,26 +1,25 @@
+.results{
+    margin-top: 15%;
+}
+
 .answer {
-color: red;
+    color: red;
 }
 
 .correct {
-color: green;
+    color: green;
 }
 
 button {
-font-size: 24px;
-// color: #e00;
+    font-size: 24px;
 }
 
 h1 {
-font-size: 32px;
-// font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 32px;
 }
 
 mat-card {
-margin: auto;
-width: 15rem;
-}
-
-.test{
-    border: solid;
+    margin: auto;
+    width: 15rem;
+    background-image: linear-gradient(white, rgb(255, 252, 237));
 }

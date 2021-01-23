@@ -7,9 +7,9 @@
       (onChoiceMade)="updateChoice($event)"
     >
     </app-question-form>
-    <br />
-    <mat-card>
+    <mat-card class="next-button">
       <button
+        mat-raised-button
         class="btn btn-success"
         (click)="nextOrViewResults()"
         [disabled]="!answers.values[currentQuestionIndex]"

@@ -1,25 +1,11 @@
-*{
-  // border: solid;
-}
-
 mat-card {
   margin: auto;
   width: 15rem;
-  background-color: #e00;
-  color: #eee;
-}
-
-mat-card-title {
-  background-color: #e00;
-}
-
-mat-card-content {
-  background-color: #e00;
+  background-image: linear-gradient(white, rgb(255, 252, 237));
 }
 
 h1 {
   font-size: 32px;
-  // font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 .choice {
